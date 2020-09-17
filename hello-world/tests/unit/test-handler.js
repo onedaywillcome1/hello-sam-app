@@ -16,7 +16,7 @@ describe('Tests index', function () {
         let response = JSON.parse(result.body);
 
         expect(response).to.be.an('object');
-        expect(response.message).to.be.equal("hello world 2");
+        expect(response.message).to.be.equal("hello world");
         // expect(response.location).to.be.an("string");
     });
 });
